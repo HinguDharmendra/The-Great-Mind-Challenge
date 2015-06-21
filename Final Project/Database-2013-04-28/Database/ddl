@@ -1,0 +1,220 @@
+-- This CLP file was created using DB2LOOK Version "9.7" 
+-- Timestamp: 4/12/2013 1:17:22 PM
+-- Database Name: TESTING        
+-- Database Manager Version: DB2/NT Version 9.7.5          
+-- Database Codepage: 1208
+-- Database Collating Sequence is: IDENTITY
+
+
+CONNECT TO TESTING;
+
+-- Mimic tablespace
+
+ALTER TABLESPACE SYSCATSPACE
+      PREFETCHSIZE AUTOMATIC
+      OVERHEAD 7.500000
+      NO FILE SYSTEM CACHING 
+      AUTORESIZE YES 
+      TRANSFERRATE 0.060000;
+
+
+ALTER TABLESPACE TEMPSPACE1
+      PREFETCHSIZE AUTOMATIC
+      OVERHEAD 7.500000
+      FILE SYSTEM CACHING 
+      TRANSFERRATE 0.060000;
+
+
+ALTER TABLESPACE USERSPACE1
+      PREFETCHSIZE AUTOMATIC
+      OVERHEAD 7.500000
+      NO FILE SYSTEM CACHING 
+      AUTORESIZE YES 
+      TRANSFERRATE 0.060000;
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."FILE"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."FILE"  (
+		  "FILE_ID" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (  
+		    START WITH +1  
+		    INCREMENT BY +1  
+		    MINVALUE +1  
+		    MAXVALUE +2147483647  
+		    NO CYCLE  
+		    CACHE 12  
+		    NO ORDER ) , 
+		  "LOC" VARCHAR(500) NOT NULL , 
+		  "FILENAME" VARCHAR(200) , 
+		  "USERS" VARCHAR(100) , 
+		  "TYPE" VARCHAR(1) )   
+		 IN "USERSPACE1" ; 
+
+
+-- DDL Statements for primary key on Table "DB2ADMIN"."FILE"
+
+ALTER TABLE "DB2ADMIN"."FILE" 
+	ADD CONSTRAINT "CC1361785676650" PRIMARY KEY
+		("FILE_ID");
+
+
+
+ALTER TABLE "DB2ADMIN"."FILE" ALTER COLUMN "FILE_ID" RESTART WITH 909;
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."USER"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."USER"  (
+		  "FNAME" VARCHAR(25) NOT NULL , 
+		  "MNAME" VARCHAR(25) NOT NULL , 
+		  "LNAME" VARCHAR(25) NOT NULL , 
+		  "U_ID" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (  
+		    START WITH +1  
+		    INCREMENT BY +1  
+		    MINVALUE +1  
+		    MAXVALUE +2147483647  
+		    NO CYCLE  
+		    CACHE 12  
+		    NO ORDER ) , 
+		  "EMAIL" VARCHAR(50) NOT NULL , 
+		  "GENDER" CHAR(1) NOT NULL , 
+		  "PASSWORD" VARCHAR(32) NOT NULL , 
+		  "MOBILE_NO" BIGINT NOT NULL , 
+		  "DOB" DATE NOT NULL )   
+		 IN "USERSPACE1" ; 
+
+
+-- DDL Statements for primary key on Table "DB2ADMIN"."USER"
+
+ALTER TABLE "DB2ADMIN"."USER" 
+	ADD CONSTRAINT "U_ID" PRIMARY KEY
+		("U_ID");
+
+
+
+ALTER TABLE "DB2ADMIN"."USER" ALTER COLUMN "U_ID" RESTART WITH 262;
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."SFILE"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."SFILE"  (
+		  "SUSER" VARCHAR(100) NOT NULL , 
+		  "OUSER" VARCHAR(100) NOT NULL , 
+		  "LOCATION" VARCHAR(500) NOT NULL , 
+		  "SID" BIGINT NOT NULL GENERATED ALWAYS AS IDENTITY (  
+		    START WITH +100  
+		    INCREMENT BY +1  
+		    MINVALUE +100  
+		    MAXVALUE +9223372036854775807  
+		    NO CYCLE  
+		    NO CACHE  
+		    NO ORDER ) )   
+		 IN "USERSPACE1" ; 
+
+
+-- DDL Statements for primary key on Table "DB2ADMIN"."SFILE"
+
+ALTER TABLE "DB2ADMIN"."SFILE" 
+	ADD CONSTRAINT "CC1364455252363" PRIMARY KEY
+		("SID");
+
+
+
+ALTER TABLE "DB2ADMIN"."SFILE" ALTER COLUMN "SID" RESTART WITH 123;
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."CONTACT_US"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."CONTACT_US"  (
+		  "NAME" VARCHAR(100) NOT NULL , 
+		  "EMAIL" VARCHAR(200) NOT NULL , 
+		  "MESSAGE" VARCHAR(1000) NOT NULL , 
+		  "C_ID" BIGINT NOT NULL GENERATED ALWAYS AS IDENTITY (  
+		    START WITH +1  
+		    INCREMENT BY +1  
+		    MINVALUE +1  
+		    MAXVALUE +9223372036854775807  
+		    NO CYCLE  
+		    NO CACHE  
+		    NO ORDER ) )   
+		 IN "USERSPACE1" ; 
+
+
+-- DDL Statements for primary key on Table "DB2ADMIN"."CONTACT_US"
+
+ALTER TABLE "DB2ADMIN"."CONTACT_US" 
+	ADD CONSTRAINT "CC1364792904691" PRIMARY KEY
+		("C_ID");
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."GROUP"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."GROUP"  (
+		  "REQUESTER" VARCHAR(500) NOT NULL , 
+		  "REQUESTEE" VARCHAR(500) NOT NULL , 
+		  "APPROVE" VARCHAR(1) NOT NULL )   
+		 IN "USERSPACE1" ; 
+
+COMMENT ON TABLE "DB2ADMIN"."GROUP" IS 'group';
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "DB2ADMIN"."SHORTCUTS"
+------------------------------------------------
+ 
+
+CREATE TABLE "DB2ADMIN"."SHORTCUTS"  (
+		  "USERS" VARCHAR(50) NOT NULL , 
+		  "PSPRT" VARCHAR(11) , 
+		  "PANNUM" VARCHAR(11) , 
+		  "PINNUM" VARCHAR(4) , 
+		  "DLIC" VARCHAR(11) , 
+		  "ADNO" VARCHAR(15) , 
+		  "BNO" VARCHAR(15) )   
+		 IN "USERSPACE1" ; 
+
+
+-- DDL Statements for primary key on Table "DB2ADMIN"."SHORTCUTS"
+
+ALTER TABLE "DB2ADMIN"."SHORTCUTS" 
+	ADD CONSTRAINT "CC1363882913003" PRIMARY KEY
+		("USERS");
+
+
+
+
+
+
+
+
+
+COMMIT WORK;
+
+CONNECT RESET;
+
+TERMINATE;
+
+-- USER is: DB2ADMIN
+-- Specified SCHEMA is: DB2ADMIN
+-- The db2look utility will consider only the specified tables 
+-- Creating DDL for table(s)
+
+-- Schema name is ignored for the Federated Section
+;

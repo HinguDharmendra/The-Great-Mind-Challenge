@@ -1,0 +1,29 @@
+<%@page language="java" import="java.sql.*"%><%
+    String email = request.getParameter("email");
+	String mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    ResultSet rs;
+        Connection con = null;
+        Class.forName("com.ibm.db2.jcc.DB2Driver");
+        con = DriverManager.getConnection("jdbc:db2://localhost:50000/TESTING","DB2admin","mdh");
+
+        Statement st = con.createStatement();
+        String strQuery=null;
+
+
+        strQuery = "select count(*) from user where email='"+email+"'";
+        rs = st.executeQuery(strQuery);
+        while(rs.next())
+        {
+
+              if(rs.getInt(1) > 0)
+            {
+               out.print("FALSE");
+             }
+
+            else
+            {
+                out.print("TRUE");
+                  //response.sendRedirect("sessionend.jsp");
+            }
+        }
+       %>

@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Steps for installing the sample application</title>
+<style>
+body {
+ margin: 0px;
+ padding: 0px 1em;
+ color: black;
+ font-size:20px;
+ font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+ margin: 0px;
+ padding: 1em 0px;
+ background-color: gray;
+ text-align: center;
+ font-size: 36px;
+}
+
+h2 {
+ margin: 0px;
+ padding: 1em 0px;
+ text-align: center;
+ font-size: 20px;
+}
+
+div.body {
+ margin-top: 6px;
+ padding: 0px 1em;
+}
+
+
+li {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+<h1>
+Steps for installing the sample application
+</h1>
+
+<div class="body">
+<p>
+Follow the steps given below to install the sample application:<br>
+(for more information about any step from steps 2-4, consult the user manual).
+</p>
+<ol>
+<li>
+Install JRE\JDK, the Web Server(Apache Tomcat), and the database software(DB2 - Express 'C').
+</li>
+<li>
+Create the database for the application (the name of database is <b>CMC</b>).
+The database should be created in the user account "db2admin" and the password for the account should be "admin".
+It is <strong>required</strong> that you check Enable XML for Database.
+</li>
+<li>
+Deploy the application on the webserver.
+</li>
+<li>
+The database backup has been provided in the "Database" folder.
+</li>
+<li>
+After the database has been created, the application is ready to be executed. Open a web-browser and go to the URL
+<b>http://localhost:8080/cmc/</b>
+</li>
+</ol>
+</div>
+</body>
+</html>

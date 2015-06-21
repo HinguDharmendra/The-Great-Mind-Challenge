@@ -1,0 +1,506 @@
+
+body {
+	margin: 0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+      color: 	#fff;
+
+
+}
+
+#head
+{
+font-family:"Cambria";
+font-size: 50px;
+text-align: center;
+color: 	#fff;
+font-weight: bold;
+margin: 35px;
+letter-spacing: 3px;
+line-height: 77%;
+//text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px black;
+}
+
+#head1
+{
+font-family:"Times New Roman";
+font-size: 30px;
+text-align: right;
+margin-right: 100px;
+color: 	#fff;
+font-weight: bold;
+letter-spacing: 4px;
+//text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px black;
+
+}
+a:link, a:visited
+{
+	text-decoration: underline;
+	font-weight: normal;
+}
+a:active, a:hover
+{
+	//color: #FFFF66;
+	text-decoration: none;
+}
+
+p { margin: 0px; padding: 0px; }
+
+img { margin: 0px; padding: 0px; border: none; }
+
+
+
+
+
+h1 {
+	margin: 0px;
+	padding: 0px;;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 20px 0;
+	padding: 3px 0;
+	font-size: 28px;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 5px 0;
+	padding: 5px 0;
+	font-size: 16px;
+	font-weight: bold;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+
+.image_wrapper {
+	border: 1px solid #000;
+	padding: 5px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	background: #333;
+}
+
+.fl_image {
+	float: left;
+	margin-right: 15px
+}
+
+.image_wrapper img {
+	border: 1px solid #000000;
+}
+/* hcss title bar */
+#cream
+{
+width:100%;
+height:160px;
+//background: url(images/head160.jpg);
+}
+#hcss_title_bar_wrapper
+{
+	width: 100%;
+	height: 130px;
+	padding: 0;
+	margin: 1px;
+	//border:1px solid red;
+}
+
+#hcss_logo
+{
+	float:left;
+	width:  200px;
+	height: 130px;
+	padding: 0;
+	margin: 1px;
+       background: url(images/logob300150.png);
+	}
+#hcss_title_bar
+{
+        position:absolute;
+        float:left;
+        top:0;
+        left:225px;
+	width:  920px;
+	height: 130px;
+	padding: 0;
+	margin: 1px;
+	//border:1px solid red;
+}
+#hcss_search
+{
+	position:absolute;
+        top:0;
+        right:0;
+        float:left;
+	width:  200px;
+	height: 130px;
+	padding: 0;
+	margin: 1px;
+	//border:1px solid red;
+}
+/* end hcss title bar */
+/* hcss content bar */
+#hcss_content_wrapper
+{
+	float:left;
+	width:  1170px;
+	height: 100%;
+	padding: 0;
+       overflow: visible;
+	margin-left: 45px;
+	//border:1px solid red;
+	//width: 470px;
+	//height: 360px;
+	//float: left;
+	//padding: 15px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	//background: url(images/transparent.png) no-repeat;
+	background:rgba(0, 0, 0, 0.45);
+
+}
+#search{
+	float:left;
+	width:  100%;
+	height: 30px;
+	//border:1px solid red;
+}
+#templatemo_footer {
+        clear: both;
+        font-size: 12px;
+        font-weight:bold;
+        width:  100%;
+	height: 100%;
+        margin: 0 auto;
+	padding: 15px 10px;
+	color: #ece9e6;
+	text-align: center;
+}
+/*#hcss_content_right
+{
+	float:left;
+	width:  1170px;
+	height: 100%;
+	padding: 0;
+       overflow: visible;
+	margin-left: 45px;
+	//border:1px solid red;
+	//width: 470px;
+	//height: 360px;
+	//float: left;
+	//padding: 15px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	//background: url(images/transparent.png) no-repeat;
+	background:rgba(0, 0, 0, 0.45);
+}*/
+#port,#port1
+{
+    
+    align:center;
+    border-radius: 10px 10px 10px 10px;
+    background:rgba(0, 0, 0, 0.35);
+}
+.loc
+{
+  text-align: center;
+    width:18%;
+   height:100%;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 10px 10px 10px 10px;
+    //border:1px solid red;
+}
+.loc a{
+    color:#fff;
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    //padding: 10px 0 0 0;
+    text-decoration: none;
+}
+#hiuser
+{
+   float:right;
+   margin-top: 5px;
+   margin-right: 5px;
+    width:30%;
+
+}
+#resetpswd
+{
+    width:100%;
+    height:100%;
+    padding: 20px;
+}
+
+#contact_form {
+	float: left;
+	width: 400px;
+	padding: 20px 0 0 0;
+}
+
+#contact_form form {
+	margin: 0px;
+	padding: 0px;
+	/*border:1px solid #e2d1be;
+	padding: 20px 20px 10px 20px; */
+}
+
+#contact_form form .input_field {
+	height: 18px;
+	width: 230px;
+}
+
+#contact_form form label {
+	float: left;
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+#contact_form form textarea {
+	width: 230px;
+	height: 100px;
+}
+
+#contact_form form .submit_btn {
+	margin-left: 108px;
+}
+
+.em_text {
+	color: #ffffff;
+}
+
+
+.address_info {
+	float: right;
+	padding: 10px 0 0 0;
+	width: 300px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.address_info h3 {
+	border-bottom: 1px solid #ffffff;
+}
+
+
+/*end hcss content bar */
+
+
+.stripViewer .panelContainer .panel ul {
+		text-align: left;
+		margin: 0 15px 0 30px;
+		padding: 0;
+	}
+
+	.slider-wrap { /* This div isn't entirely necessary but good for getting the side arrows vertically centered */
+		margin: 0;
+		position: relative;
+		width: 700px;
+		//border:1px solid red;
+
+	}
+
+	/* These 2 lines specify style applied while slider is loading */
+	.csw {width: 100%; height: 550px; background: none; overflow: hidden;}
+	.csw .loading { margin: 200px 0 0 0; text-align: center; width: 800px; height: 500px;}
+
+	.stripViewer { /* This is the viewing window */
+		position: relative;
+		overflow: hidden;
+		margin: auto;
+		width: 1150px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+		height: 100%;
+		clear: both;
+	}
+
+	.stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
+		position: relative;
+		left: 0; top: 0;
+		width: 100%;
+		list-style-type: none;
+		/* -moz-user-select: none; // This breaks CSS validation but stops accidental (and intentional - beware) panel highlighting in Firefox. Some people might find this useful, crazy fools. */
+	}
+
+	.stripViewer .panelContainer .panel { /* Each panel is arranged end-to-end */
+		float:left;
+		height: 100%;
+		position: relative;
+		width: 1150px; /* Also specified in  .stripViewer  above */
+	}
+
+	.stripViewer .panelContainer .panel .wrapper { /* Wrapper to give some padding in the panels, without messing with existing panel width */
+		overflow: hidden;
+		padding: 10px 40px 20px 40px;
+		height: 100%;
+	}
+
+	.stripNav { /* This is the div to hold your nav (the UL generated at run time) */
+			float: left;
+			display: block;
+			width: 800px;
+			height: 53px;
+			margin: 20px 19px;
+                        border-radius:5px;
+			box-shadow:-10px 0px 38px #CDE;
+                        //background:#eee;
+		}
+
+		.stripNav ul { /* The auto-generated set of links */
+			margin: 0;
+			padding: 0;
+			color:#000;
+			height: 53px;
+			width: 1265px;
+			list-style: none;
+			border-radius:5px;
+			//background: url(images/hcss_menu.png) no-repeat;
+		}
+
+		.stripNav ul li {
+			float: left;
+			margin-right: 10px;
+			width:140px;
+			color:#000;
+			background:#eee;
+			box-shadow:26px 4px 72px #CBE;
+			/* If you change this, be sure to adjust the initial value of navWidth in coda-slider.1.1.1.js */
+			border-radius:5px;
+		}
+
+		.stripNav a {
+			font-size: 14px;
+			font-weight: bold;
+			text-align: center;
+			color: #000;
+			padding: 10px 0 0 0;
+			text-decoration: none;
+			display: block;
+			height: 42px;
+			width: 140px;
+			outline: none;
+		}
+
+	.stripNav li a { background: none; }
+	/*
+	.stripNav li.tab2 a { background: #60c }
+	.stripNav li.tab3 a { background: #63f }
+	.stripNav li.tab4 a { background: #63c }
+	.stripNav li.tab5 a { background: #00e } */
+
+	.stripNav li a:hover  {
+		color: #FFFFF0;
+		background: #383838 ;
+		border-radius:5px;
+		//background: url(images/hcss_menu_hover.png) bottom center no-repeat;
+	}
+
+	.stripNav li a.current {
+		color: #FFFFF0;
+		background: #000;
+		border-radius:5px;
+		//background: url(images/hcss_menu_hover.png) bottom center no-repeat;
+	}
+
+	.stripNavL, .stripNavR { /* The left and right arrows */
+		position: absolute;
+		top: 230px;
+		text-indent: -9000em;
+	}
+
+	.stripNavL a, .stripNavR a {
+		display: block;
+		height: 0px;
+		width: 0px;
+	}
+
+	.stripNavL {
+		left: 0;
+	}
+
+	.stripNavR {
+		right: 0;
+	}
+
+	.stripNavL {
+		background: url("images/arrow-left.gif") no-repeat center;
+	}
+
+	.stripNavR {
+		background: url("images/arrow-right.gif") no-repeat center;
+	}
+/*services */
+#panel1,#panel2,#panel3,#panel4,#panel5
+{
+font-family:"Times New Roman";
+font-size: 15px;
+padding:5px;
+border-radius: 10px 10px 10px 10px;
+background:rgba(0, 0, 0, 0.35);
+border:solid 1px #c3c3c3;
+padding:5px;
+display:none;
+}
+.flip
+{
+font-family:"Times New Roman";
+font-weight: bold;
+font-size: 18px;
+width:20%;
+padding:5px;
+text-align:center;
+border-radius: 10px 10px 10px 10px;
+background:rgba(0, 0, 0, 0.35);
+border:solid 1px #c3c3c3;
+}
+       
+/*download validation*/
+
+     #emailv,#passwordv{ margin-bottom:12px; width:95%; padding: .4em; }
+    fieldset { padding:0; border:0; margin-top:25px; }
+    h1 { font-size: 1.2em; margin: .6em 0; }
+    .ui-dialog .ui-state-error { padding: .3em; }
+    .validateTips { border: 1px solid transparent; padding: 0.3em; }
+/*registration ajax*/
+#msgbox
+{
+	display: none;
+}
+.myerror
+{
+	margin: 5px auto;
+	background:#FFDFDF;
+	border: 1px #FF0000 solid;
+	padding:5px;
+	color:#FF0000;
+	font-size:12px;
+	width:400px;
+	min-height:0px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	text-align: center;
+}
+.myinfo
+{
+	margin: 5px auto;
+	background:#d6e3f5;
+	border: 1px #0010ac solid;
+	padding:5px;
+	color:#0010ac;
+	font-size:12px;
+	width:400px;
+	min-height:0px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	text-align: center;
+}

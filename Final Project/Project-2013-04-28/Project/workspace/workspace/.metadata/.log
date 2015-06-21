@@ -1,0 +1,132 @@
+!SESSION 2013-04-11 19:31:17.610 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:43.922
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.022
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.025
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.025
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.026
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.035
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.037
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.037
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.038
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.219
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.219
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.222
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.222
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.222
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.225
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.225
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.226
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:23:44.226
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2013-04-11 21:27:47.456
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2013-04-11 21:27:47.456
+!MESSAGE Conflict for 'org.eclipse.wst.sse.ui.search.find.occurrences':
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.search.find.occurrences,
+	handler=org.eclipse.jst.jsp.ui.internal.handlers.JSPFindOccurrencesHandler@a27802,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@73684689,sourcePriority=64)
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.search.find.occurrences,
+	handler=org.eclipse.wst.html.ui.internal.handlers.HTMLFindOccurrencesHandler@7501ff,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@cf9b359,sourcePriority=64)
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:45.714
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:45.764
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:45.765
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:45.765
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:45.766
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:45.993
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:45.993
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:45.994
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:45.994
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.010
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.038
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.377
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.377
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.378
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.378
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.378
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.379
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.379
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.380
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
+
+!ENTRY org.eclipse.wst.jsdt.core 2 2 2013-04-11 21:40:46.380
+!MESSAGE There should only ever be one match for a constructor search but found 2 when looking for Error. Using the first match.
